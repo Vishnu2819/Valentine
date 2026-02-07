@@ -13,4 +13,4 @@ The goal is to:
 - **Do not break existing button behavior or interaction logic**
 
 ### Current Issue (Visual Reference)
-![Button alignment issue]()
+<img width="811" height="848" alt="Screenshot 2026-02-07 at 4 49 07 PM" src="https://github.com/user-attachments/assets/17f11422-1070-4c31-a708-2fd38576b09f" />
