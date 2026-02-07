@@ -13,6 +13,6 @@ noBtn.addEventListener('mouseenter', () => {
     noBtn.style.left = `${x}px`;
     noBtn.style.top = `${y}px`;
 
-    scale = Math.min(scale + 0.15, 3);
-    yesBtn.style.transform = `scale(${scale}) rotate(${scale * 2}deg)`;
+    scale = Math.min(scale + 0.15, 5);
+    yesBtn.style.transform = `scale(${scale})`;
 });
