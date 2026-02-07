@@ -1,8 +1,8 @@
 ## Valentine
 
 **About:**
--Playful and silly application to make your loved one smile
--It is an questionnaire asking them to be your valentine except that they don't have a choice.
+- Playful and silly application to make your loved one smile
+- It is an questionnaire asking them to be your valentine except that they don't have a choice.
 
 **How to install**
 - Clone the Repo
