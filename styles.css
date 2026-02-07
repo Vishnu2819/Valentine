@@ -1,0 +1,45 @@
+:root {
+    --width: 100px;
+    --height: 70px;
+    --border-radius: 15px;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+
+button {
+    color: white;
+    font-weight: bolder;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.yes {
+    background-color: #438E64;
+}
+
+.no {
+    background-color: #BD4646;
+    position: absolute;
+    transition: left 0.2s ease, top 0.2s ease;
+}
+
+.yes:hover {
+    transform: scale(1.1);
+}
