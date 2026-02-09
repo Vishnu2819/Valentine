@@ -3,6 +3,15 @@ const yesBtn = document.querySelector('.yes');
 const header = document.querySelector('h1');
 
 let scale = 1;
+let messageIndex = 0;
+
+const messages = [
+    "message 1",
+    "message 2",
+    "message 3",
+    "message 4",
+    "message 5"
+];
 
 noBtn.addEventListener('mouseenter', () => {
     const rect = noBtn.getBoundingClientRect();
@@ -18,6 +27,7 @@ noBtn.addEventListener('mouseenter', () => {
 
     scale = Math.min(scale + 0.15, 5);
     yesBtn.style.transform = `scale(${scale})`;
-
-    header.innerHTML = "You will be my Valentine!!";
+    
+    messageIndex = (messageIndex + 1) % messages.length;
+    header.innerHTML = messages[messageIndex];
 });
