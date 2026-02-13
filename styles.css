@@ -4,13 +4,22 @@
     --border-radius: 15px;
 }
 
+body{
+    background-color: #F87C63;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
-    height: 80vh;
-    margin: 0px;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 header{
@@ -20,10 +29,13 @@ header{
     display: flex;
 }
 
+h1{
+    font-size: 50px;
+}
+
 .buttons {
     display: flex;
     gap: 30px;
-    position: relative;
 }
 
 button {
@@ -35,7 +47,6 @@ button {
     border: 0;
     cursor: pointer;
     transition: transform 0.3s ease;
-    position: static;
 }
 
 .yes {
@@ -45,9 +56,14 @@ button {
 .no {
     background-color: #BD4646;
     transition: left 0.2s ease, top 0.2s ease;
-    position: fixed;
 }
 
 .yes:hover {
     transform: scale(1.1);
+}
+
+.congrats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
